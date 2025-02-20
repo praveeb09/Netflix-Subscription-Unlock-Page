@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Payment System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-image: url(wp14818811-netflix-wallpapers.webp);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            color: rgb(255, 255, 255);
+        }
+        h2 {
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: glow 1.5s infinite alternate;
+        }
+        .payment-phone {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: white;
+        }
+        .payment-icons img {
+            width: 70px;
+            margin: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 10px;
+        }
+        .payment-icons img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgb(255, 255, 255);
+        }
+        .scanner img {
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .scanner img:hover {
+            transform: rotate(10deg) scale(1.05);
+        }
+        .pay-buttons {
+            margin-top: 20px;
+        }
+        .pay-buttons a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: red;
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin: 10px;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .pay-buttons a:hover {
+            background-color: darkred;
+            transform: scale(1.05);
+        }
+        .netflix-button {
+            margin-top: 40px;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+            }
+            to {
+                text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Online Payment System</h2>
+
+    <div class="payment-phone">Payment Phone No : +91 7286966451</div>
+
+    <div class="scanner">
+        <img src="Qr scenar.png" alt="QR Scanner">
+    </div>
+
+    <div class="pay-buttons">
+        <a href="https://paytm.com/" target="_self">Pay with Paytm</a>
+        <a href="https://www.phonepe.com/" target="_self">Pay with PhonePe</a>
+        <a href="https://pay.google.com/" target="_self">Pay with Google Pay</a>
+    </div>
+
+</body>
+</html>
+
